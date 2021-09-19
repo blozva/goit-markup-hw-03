@@ -1,5 +1,3 @@
-@import "node_modules/modern-normalize/modern-normalize.css";
-
 :root {
   --primary-title-color: #ffffff;
   --title-text-color: #212121;
@@ -16,15 +14,15 @@ body {
   font-size: 14px;
   background-color: var(--primary-title-color);
 }
-/* прибирає крапочки */
-li {
-  list-style-type: none;
+/* прибираємо крапочки та підкреслювання */
+.site-nav,
+.auth-nav,
+.desc {
+  list-style: none;
 }
-/* прибирає підкреслювання у посилань*/
-a {
+.link-item {
   text-decoration: none;
 }
-
 /* -----логотип -----*/
 .logo {
   font-family: Raleway;
@@ -47,9 +45,11 @@ a {
 }
 .site-nav .link {
   color: var(--title-text-color);
+  text-decoration: none;
 }
 .auth-nav .link {
   color: var(--text-item-color);
+  text-decoration: none;
 }
 .control .link:hover,
 .control .link:focus {
