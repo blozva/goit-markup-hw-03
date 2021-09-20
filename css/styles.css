@@ -9,9 +9,7 @@
 body {
   font-family: "Roboto", sans-serif;
   font-style: normal;
-  font-weight: 700;
   letter-spacing: 0.03em;
-  font-size: 14px;
   background-color: var(--primary-title-color);
 }
 /* прибираємо крапочки та підкреслювання */
@@ -25,21 +23,21 @@ body {
 }
 /* -----логотип -----*/
 .logo {
-  font-family: Raleway;
+  font-family: "Raleway", sans-serif;
   font-size: 26px;
   line-height: 1.19;
   color: var(--accent-color);
 }
 .logo .text {
-  font-family: Raleway;
+  font-family: "Raleway", sans-serif;
   font-size: 26px;
   line-height: 1.19;
   color: var(--title-text-color);
 }
 /* Шапка сайта,навігація */
 .control .link {
-  font-family: Roboto;
   font-weight: 500;
+  font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
 }
@@ -64,7 +62,6 @@ body {
   color: var(--primary-title-color);
 }
 .wrapper-title {
-  font-family: Roboto;
   font-weight: 900;
   font-size: 44px;
   line-height: 1.36;
@@ -124,8 +121,7 @@ body {
   overflow: hidden;
 }
 .headline {
-  font-family: Roboto;
-  font-weight: bold;
+  font-weight: 700;
   font-size: 36px;
   line-height: 1.16;
   text-align: center;
@@ -135,14 +131,14 @@ body {
 .items {
 }
 .items-title {
-  font-family: Roboto;
   font-weight: 700;
+  font-size: 14px;
   line-height: 1.14;
   text-transform: uppercase;
 }
 .text {
-  font-family: Roboto;
-  font-weight: normal;
+  font-weight: 400;
+  font-size: 14px;
   line-height: 1.71;
   color: var(--text-item-color);
 }
@@ -157,7 +153,6 @@ body {
   background-color: var(--primary-title-color);
 }
 .people-desc {
-  font-family: Roboto;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.18;
@@ -178,7 +173,6 @@ body {
   box-sizing: border-box;
 }
 .caption {
-  font-family: Roboto;
   font-weight: 700;
   font-size: 18px;
   line-height: 2;
