@@ -66,7 +66,6 @@ img {
 .header {
   padding-top: 32px;
   padding-bottom: 32px;
-  width: 1200px;
   border-bottom: 1px solid #ececec;
 }
 .header-container {
@@ -117,7 +116,6 @@ img {
 .section-wrapper {
   padding-top: 200px;
   padding-bottom: 200px;
-  width: 1200px;
   align-items: center;
   text-align: center;
   background-color: var(--section-aside-color);
@@ -194,7 +192,6 @@ img {
 .section-benefits {
   padding-top: 94px;
   padding-bottom: 47px;
-  width: 1200px;
   background-color: rgb(228, 206, 111);
 }
 .benefits {
@@ -227,7 +224,6 @@ img {
 .section-work {
   padding-top: 47px;
   padding-bottom: 94px;
-  width: 1200px;
   background-color: rosybrown;
 }
 .pictures {
@@ -244,7 +240,6 @@ img {
 .section-team {
   padding-top: 94px;
   padding-bottom: 94px;
-  width: 1200px;
   background-color: var(--section-secondary-color);
 }
 .list {
@@ -284,7 +279,6 @@ img {
 .footer {
   padding-top: 60px;
   padding-bottom: 60px;
-  width: 1200px;
   background-color: var(--section-aside-color);
   color: var(--primary-title-color);
 }
@@ -300,9 +294,8 @@ img {
 }
 /* ---Portfolio ---*/
 .section {
-  padding-top: 49px;
+  padding-top: 94px;
   padding-bottom: 94px;
-  width: 1200px;
   background-color: rosybrown;
 }
 .desc {
