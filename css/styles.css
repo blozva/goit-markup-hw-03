@@ -48,6 +48,10 @@ img {
   width: 1200px;
   outline: 2px solid coral;
 }
+.section {
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
 /* -----логотип -----*/
 .logo {
   font-family: "Raleway", sans-serif;
@@ -113,7 +117,7 @@ img {
   color: var(--accent-color);
 }
 /* Герой,основний заголовок*/
-.section-wrapper {
+.section.section-wrapper {
   padding-top: 200px;
   padding-bottom: 200px;
   align-items: center;
@@ -125,6 +129,7 @@ img {
   font-weight: 900;
   font-size: 44px;
   line-height: 1.36;
+  margin-bottom: 30px;
   letter-spacing: 0.06em;
   text-transform: uppercase;
   margin: 0 auto;
@@ -140,7 +145,6 @@ img {
 }
 .wrapper-button {
   padding: 10px 32px;
-  margin-top: 30px;
   font-weight: 700;
   font-size: 16px;
   line-height: 1.87;
@@ -185,12 +189,12 @@ img {
   font-weight: 700;
   font-size: 36px;
   line-height: 1.16;
+  letter-spacing: 0.03em;
   text-align: center;
   color: var(--title-text-color);
 }
 /* <!-- Переваги  --> */
-.section-benefits {
-  padding-top: 94px;
+.section.section-benefits {
   padding-bottom: 47px;
 }
 .benefits {
@@ -206,6 +210,7 @@ img {
   font-weight: 700;
   font-size: 14px;
   line-height: 1.14;
+  letter-spacing: 0.03em;
   text-transform: uppercase;
 }
 .items-text {
@@ -220,9 +225,8 @@ img {
   margin-right: 30px;
 }
 /* --Приклади робіт -- */
-.section-work {
+.section.section-work {
   padding-top: 47px;
-  padding-bottom: 94px;
 }
 .pictures {
   display: flex;
@@ -235,9 +239,7 @@ img {
   margin-top: 50px;
 }
 /* --Наша команда --*/
-.section-team {
-  padding-top: 94px;
-  padding-bottom: 94px;
+.section.section-team {
   background-color: var(--section-secondary-color);
 }
 .list {
@@ -294,10 +296,7 @@ img {
   text-decoration: none;
 }
 /* ---Portfolio ---*/
-.section {
-  padding-top: 94px;
-  padding-bottom: 94px;
-}
+
 .desc {
   display: flex;
   margin: auto;
