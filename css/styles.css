@@ -311,6 +311,9 @@ img {
   color: var(--text-item-color);
   color: rgba(255, 255, 255, 0.6);
 }
+.track {
+  display: block;
+}
 .track:not(:last-child) {
   margin-bottom: 9px;
 }
@@ -319,7 +322,7 @@ img {
   color: var(--accent-color);
 }
 /* ---Portfolio ---*/
-
+/* кнопки */
 .desc {
   display: flex;
   margin: auto;
@@ -329,6 +332,7 @@ img {
 .desc-nav:not(:last-child) {
   margin-right: 8px;
 }
+/* ---Portfolio ---*/
 .activities {
   display: flex;
   flex-wrap: wrap;
@@ -336,7 +340,7 @@ img {
   margin-right: -30px;
 }
 .picture-title {
-  margin-top: 30px;
+  margin-bottom: 30px;
   margin-right: 30px;
   width: 370px;
   height: 404px;
@@ -347,10 +351,10 @@ img {
 .picture-title-active {
   padding-top: 20px;
   padding-bottom: 20px;
-}
-.caption {
   padding-right: 24px;
   padding-left: 24px;
+}
+.caption {
   margin-bottom: 4px;
   font-weight: 700;
   font-size: 18px;
@@ -359,8 +363,6 @@ img {
   color: var(--title-text-color);
 }
 .picture-title-active .text {
-  padding-right: 24px;
-  padding-left: 24px;
   font-weight: 400;
   font-size: 16px;
   line-height: 1, 87;
