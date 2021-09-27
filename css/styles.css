@@ -79,7 +79,7 @@ img {
 .header {
   padding-top: 32px;
   padding-bottom: 32px;
-  border: 1px solid #ececec; 
+  border-bottom: 1px solid #ececec; 
 }
 .header-container {
   display: flex;
