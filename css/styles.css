@@ -132,8 +132,7 @@ img {
   color: var(--accent-color);
 }
 /* Герой,основний заголовок*/
-.section.section-wrapper {
-  display: flex;
+.section.section-hero {
   padding-top: 200px;
   padding-bottom: 200px;
   align-items: center;
@@ -141,7 +140,7 @@ img {
   background-color: var(--section-aside-color);
   color: var(--primary-title-color);
 }
-.wrapper-hero {
+.hero-title {
   font-weight: 900;
   font-size: 44px;
   line-height: 1.36;
@@ -153,7 +152,7 @@ img {
   max-width: 696px;
 }
 /* кнопки */
-.wrapper-button {
+.hero-button {
   padding: 10px 32px;
   font-weight: 700;
   font-size: 16px;
@@ -168,8 +167,8 @@ img {
   text-align: center;
   cursor: pointer;
 }
-.wrapper-button:hover,
-.wrapper-button:focus {
+.hero-button:hover,
+.hero-button:focus {
   background-color: #188ce8;
 }
 .desc-button:hover,
