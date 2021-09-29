@@ -29,10 +29,10 @@ ul {
   /* прибираємо крапочки */
   list-style: none;
 }
-a {
-  d
+.link {
+  display: block;
 }
-/* прибираємо крапочки та підкреслювання */
+/* прибираємо підкреслювання */
 .link-item {
   text-decoration: none;
 }
@@ -79,7 +79,7 @@ img {
 .header {
   padding-top: 32px;
   padding-bottom: 32px;
-  border-bottom: 1px solid #ececec; 
+  border-bottom: 1px solid #ececec;
 }
 .header-container {
   display: flex;
@@ -274,7 +274,6 @@ img {
 .list {
   display: flex;
   flex-wrap: wrap;
-
 }
 .people:not(:last-child) {
   margin-right: 30px;
@@ -313,13 +312,14 @@ img {
   padding-bottom: 60px;
   background-color: var(--section-aside-color);
 }
-.footer .link.foot {
+.address-row .link.maps {
   color: var(--primary-title-color);
 }
 .address {
   font-style: normal;
 }
-.auth-nav-address .link {
+.address-auth-nav .link {
+  height: 21px;
   font-weight: 400;
   font-size: 14px;
   line-height: 1.71px;
@@ -328,14 +328,11 @@ img {
   color: var(--text-item-color);
   color: rgba(255, 255, 255, 0.6);
 }
-.track {
-  display: block;
-}
-.track:not(:last-child) {
+.address-row:not(:last-child) {
   margin-bottom: 9px;
 }
-.auth-nav-address .link:hover,
-.auth-nav-address .link:focus {
+.address-auth-nav .link:hover,
+.address-auth-nav .link:focus {
   color: var(--accent-color);
 }
 
@@ -346,7 +343,6 @@ img {
 }
 .picture-title:not(:nth-child(3n)) {
   margin-right: 30px;
-
 }
 .picture-title {
   margin-top: 30px;
@@ -355,7 +351,7 @@ img {
   background-color: var(--primary-title-color);
   border: 1px solid #eeeeee;
   box-sizing: border-box;
-} 
+}
 .picture-title-active {
   padding-top: 20px;
   padding-bottom: 20px;
