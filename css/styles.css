@@ -29,7 +29,8 @@ ul {
   /* прибираємо крапочки */
   list-style: none;
 }
-.link {
+.link,
+.link-item {
   display: block;
 }
 /* прибираємо підкреслювання */
